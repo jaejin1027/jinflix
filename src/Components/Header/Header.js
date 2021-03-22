@@ -1,7 +1,9 @@
 import React from "react";
+import styles from "./Header.module.css";
 
-export default () => (<header>
-    <ul>
+export default () => (
+<header>
+    <ul className={styles.navList}>
         <li>
             <a href="/">Movies</a>
         </li>
@@ -12,4 +14,5 @@ export default () => (<header>
             <a href="/search">Search</a>
         </li>
     </ul>
-</header>)
+</header>
+)

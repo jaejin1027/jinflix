@@ -6,7 +6,6 @@ import Search from "Routes/Search";
 import Header from "Components/Header";
 
 export default () => (
-    
     <Router>
       <>
       <Header />
@@ -18,5 +17,4 @@ export default () => (
       </Switch>
       </>
     </Router>
-    
 );
